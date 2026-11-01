@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="384" viewBox="0 0 1280 384" role="img" aria-labelledby="title desc">
+  <title id="title">NaviSafe — Monitoramento e segurança náutica</title>
+  <desc id="desc">Banner azul-marinho com o nome NaviSafe, linhas de navegação e uma ilustração abstrata de radar e embarcação em ciano.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#071525"/>
+      <stop offset="1" stop-color="#102E46"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop stop-color="#23CBE0" stop-opacity=".16"/>
+      <stop offset="1" stop-color="#23CBE0" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="48" height="48" patternUnits="userSpaceOnUse">
+      <path d="M48 0H0V48" fill="none" stroke="#81B7CD" stroke-opacity=".065"/>
+    </pattern>
+    <clipPath id="bounds"><rect width="1280" height="384" rx="24"/></clipPath>
+  </defs>
+  <g clip-path="url(#bounds)">
+    <rect width="1280" height="384" fill="url(#background)"/>
+    <rect x="720" width="560" height="384" fill="url(#grid)"/>
+    <circle cx="1030" cy="188" r="260" fill="url(#glow)"/>
+    <path d="M720 360C820 350 800 288 900 302S1040 350 1130 298S1230 248 1320 264" fill="none" stroke="#3E829F" stroke-opacity=".2" stroke-width="2"/>
+    <path d="M720 384C820 374 800 312 900 326S1040 374 1130 322S1230 272 1320 288" fill="none" stroke="#3E829F" stroke-opacity=".12" stroke-width="2"/>
+
+    <g font-family="Arial, Helvetica, sans-serif">
+      <rect x="72" y="64" width="234" height="34" rx="17" fill="#16364B" stroke="#2B5B70"/>
+      <circle cx="91" cy="81" r="4" fill="#52DEDC"/>
+      <text x="106" y="87" fill="#B8DEE9" font-size="14" font-weight="700" letter-spacing="1.6">TECNOLOGIA NÁUTICA</text>
+      <text x="68" y="205" fill="#F5FAFC" font-size="88" font-weight="700" letter-spacing="-3">Navi<tspan fill="#52DEDC">Safe</tspan></text>
+      <text x="73" y="253" fill="#BDD0DF" font-size="27">Monitoramento e segurança náutica.</text>
+      <path d="M74 301H119" stroke="#52DEDC" stroke-width="3" stroke-linecap="round"/>
+      <text x="134" y="307" fill="#A9C4D5" font-size="17" letter-spacing=".4">Localização · Telemetria · Alertas</text>
+    </g>
+
+    <g transform="translate(1030 188)" fill="none">
+      <circle r="137" stroke="#6FB2C8" stroke-opacity=".17"/>
+      <circle r="100" stroke="#6FB2C8" stroke-opacity=".24"/>
+      <circle r="62" stroke="#6FB2C8" stroke-opacity=".32"/>
+      <path d="M-150 0H150M0-150V150" stroke="#6FB2C8" stroke-opacity=".16" stroke-dasharray="3 7"/>
+      <path d="M0 0L96-96A136 136 0 0 1 136 0Z" fill="#52DEDC" fill-opacity=".06"/>
+      <path d="M0 0L96-96" stroke="#52DEDC" stroke-opacity=".6" stroke-width="2"/>
+      <path d="M-107 91C-89 76-75 98-52 78S-47 49-28 35" stroke="#52DEDC" stroke-opacity=".7" stroke-width="2" stroke-dasharray="4 7" stroke-linecap="round"/>
+      <circle cx="-107" cy="91" r="5" fill="#52DEDC"/>
+      <circle cx="76" cy="-57" r="4" fill="#BDD0DF"/>
+      <circle cx="-88" cy="-47" r="4" fill="#52DEDC" fill-opacity=".6"/>
+      <circle r="35" fill="#0D283D" stroke="#3C7C96"/>
+      <path d="M0-21L17 19L0 11L-17 19Z" fill="#52DEDC" stroke="#9DF0EC" stroke-width="1.5" stroke-linejoin="round"/>
+      <path d="M0-15V10" stroke="#0D283D" stroke-width="2"/>
+    </g>
+    <rect x="1" y="1" width="1278" height="382" rx="23" fill="none" stroke="#3F647A" stroke-opacity=".35" stroke-width="2"/>
+  </g>
+</svg>
