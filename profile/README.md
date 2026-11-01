@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/NavisafeApp/.github/main/profile/assets/banner.svg" alt="Monitoramento e segurança náutica — localização, telemetria e alertas." width="1280" />
+  <a href="https://navisafe.com.br"><img src="https://raw.githubusercontent.com/NavisafeApp/.github/main/profile/assets/banner.svg" alt="NaviSafe — monitoramento e segurança náutica, com a logo e as cores do site oficial." width="1280" /></a>
 </p>
 
 <p align="center">
